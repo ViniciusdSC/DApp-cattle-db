@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { Web3ReactProvider } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
-
-
 import App from './core';
 import Theme from 'config/theme';
+
+require('dotenv').config()
 
 ReactDOM.render(
   <React.StrictMode>

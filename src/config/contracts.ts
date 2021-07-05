@@ -1,5 +1,5 @@
-export const CattleContractAddress =
-  "0x1F1Fab33c8e9581b4b8d892fa85F929122996Aff";
+export const CattleContractAddress = process.env
+  .REACT_APP_CATTLE_CONTRACT_ADDRESS as string;
 
-export const CattleFactoryContractAddress =
-  "0xe245451F5b129039FF6084726D0511c4Fea15d86";
+export const CattleFactoryContractAddress = process.env
+  .REACT_APP_CATTLE_FACTORY_CONTRACT_ADDRESS as string;
